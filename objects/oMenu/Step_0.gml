@@ -29,7 +29,6 @@ if (menu_control) {
 if /*(menu_x > gui_width+150) && */(menu_committed != -1) {
 	switch (menu_committed) {
 		case 1: default: SlideTransition(TRANS_MODE.NEXT); break;
-		break;
 		case 0: game_end(); break;
 	}
 }
