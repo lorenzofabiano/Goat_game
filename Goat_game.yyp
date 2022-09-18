@@ -3,7 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Goat_game",
   "resources": [
-    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":2,},
     {"id":{"name":"sTilesetWalls","path":"sprites/sTilesetWalls/sTilesetWalls.yy",},"order":6,},
     {"id":{"name":"oGrowingPlant","path":"objects/oGrowingPlant/oGrowingPlant.yy",},"order":3,},
     {"id":{"name":"sPlant","path":"sprites/sPlant/sPlant.yy",},"order":5,},
@@ -12,6 +12,7 @@
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":5,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":7,},
     {"id":{"name":"sPlayer_id","path":"sprites/sPlayer_id/sPlayer_id.yy",},"order":0,},
+    {"id":{"name":"fmenu_font","path":"fonts/fmenu_font/fmenu_font.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"oParticles","path":"objects/oParticles/oParticles.yy",},"order":4,},
@@ -20,6 +21,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sParticles","path":"sprites/sParticles/sParticles.yy",},"order":8,},
     {"id":{"name":"sGrowingPlant","path":"sprites/sGrowingPlant/sGrowingPlant.yy",},"order":7,},
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":9,},
     {"id":{"name":"oPlant","path":"objects/oPlant/oPlant.yy",},"order":2,},
     {"id":{"name":"sPlayer_run","path":"sprites/sPlayer_run/sPlayer_run.yy",},"order":3,},
     {"id":{"name":"oPlantCounter","path":"objects/oPlantCounter/oPlantCounter.yy",},"order":6,},
@@ -41,9 +43,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
