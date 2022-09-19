@@ -29,6 +29,7 @@
     {"id":{"name":"sPlayer_air","path":"sprites/sPlayer_air/sPlayer_air.yy",},"order":4,},
     {"id":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"order":10,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"sBG","path":"sprites/sBG/sBG.yy",},"order":14,},
     {"id":{"name":"sParticles","path":"sprites/sParticles/sParticles.yy",},"order":8,},
     {"id":{"name":"sGrowingPlant","path":"sprites/sGrowingPlant/sGrowingPlant.yy",},"order":7,},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":9,},
