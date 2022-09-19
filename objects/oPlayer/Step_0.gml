@@ -6,7 +6,7 @@ if (hascontrol) {
 	var key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 
 	//check if on this frame the key has been pressed (not held)
-	var key_jump = keyboard_check_pressed(vk_space);
+	var key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("Z"));
 	
 		//jumping
 	if (canJump-- > 0) && (key_jump = 1 ) {

@@ -11,7 +11,7 @@ if (menu_control) {
 		if (menu_cursor < 0) menu_cursor = menu_items-1;
 		//audio_play_sound(snMenuBip,10,false);
 	}
-	if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
+	if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) || keyboard_check(ord("Z")) {
 		menu_x_target = gui_width+200;
 		menu_committed = menu_cursor;
 		//ScreenShake(2,30);

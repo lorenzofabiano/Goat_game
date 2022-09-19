@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlantCounter",
-  "spriteId": null,
+  "name": "oNextLevel",
+  "spriteId": {
+    "name": "sNextLevel",
+    "path": "sprites/sNextLevel/sNextLevel.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,9 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oGoatFly","path":"objects/oGoatFly/oGoatFly.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,5 +1,5 @@
-x = oPlayer.x;
-y = oPlayer.y;
+//x = oPlayer.x;
+//y = oPlayer.y;
 
 
 
