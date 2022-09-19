@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oNextLevel",
+  "name": "Object13",
   "spriteId": {
     "name": "sNextLevel",
     "path": "sprites/sNextLevel/sNextLevel.yy",
