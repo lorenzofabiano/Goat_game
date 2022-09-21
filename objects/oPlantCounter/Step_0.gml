@@ -15,12 +15,14 @@ if (levelClear = 1) and (instance_exists(oPlayer)) {
 		with (oClear) instance_destroy();
 		levelClear = 2;
 	}
-	clearScreenDuration--;	
+	clearScreenDuration--;
+	global.count_up = false;
 }
 
 if (levelClear = 2) and (instance_exists(oPlayer)) {
 	with (oPlayer) {
 		instance_create_layer(x,y,"Instances",oGoatFly);
 		instance_destroy();
+		oTimer.display = false;
 	}
 }
