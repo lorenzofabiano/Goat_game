@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "TileSet1",
   "spriteId": {
-    "name": "sTilesetWalls",
-    "path": "sprites/sTilesetWalls/sTilesetWalls.yy",
+    "name": "sTilesetWalls3",
+    "path": "sprites/sTilesetWalls3/sTilesetWalls3.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,

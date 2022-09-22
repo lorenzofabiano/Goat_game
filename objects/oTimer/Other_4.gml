@@ -8,4 +8,4 @@ if (room == Room1) {
 	global.time.seconds = 0;
 }
 
-if (room == Credits) || (room = Menu) display = false; else display = true;
+if (room == Credits) || (room = Menu) || (room = Tutorial) || (room = FinalScore) display = false; else display = true;

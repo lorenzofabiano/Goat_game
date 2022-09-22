@@ -9,7 +9,3 @@ global.scores = [];
 global.count_up = true;
 
 display = true;
-
-
-
-
