@@ -1,6 +1,10 @@
-global.seconds = 0;
-global.minutes = 0;
-global.hours = 0;
+global.time = {
+	seconds : 0,
+	minutes : 0,
+	hours : 0
+}
+
+global.scores = [];
 
 global.count_up = true;
 

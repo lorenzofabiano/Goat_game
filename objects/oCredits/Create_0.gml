@@ -6,4 +6,3 @@ totalPages = 2 - 1; //-1 perché image_index parte da zero. Se quindi
 // al cazzo ma almeno funziona.
 
 
-

@@ -3,9 +3,9 @@ if (instance_exists(oPlayer)) {
 }
 
 if (room == Room1) {
-	global.hours = 0;
-	global.minutes = 0;
-	global.seconds = 0;
+	global.time.hours = 0;
+	global.time.minutes = 0;
+	global.time.seconds = 0;
 }
 
-if (room == Credits) display = false; else display = true;
+if (room == Credits) || (room = Menu) display = false; else display = true;

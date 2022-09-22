@@ -1,16 +1,17 @@
 if (global.count_up == true) {
-	global.seconds += 1 / room_speed;
+	global.time.seconds += 1 / room_speed;
 }
 
-if (global.seconds < 60) and (global.seconds > 59.9) {
-	global.seconds = 0;
-	global.minutes += 1;
+if (global.time.seconds < 60) and (global.time.seconds > 59.9) {
+	global.time.seconds = 0;
+	global.time.minutes += 1;
 }
 
-if (global.minutes == 60) {
-		global.minutes = 0;
-		global.hours += 1;
+if (global.time.minutes == 60) {
+		global.time.minutes = 0;
+		global.time.hours += 1;
 }
+
 
 
 
