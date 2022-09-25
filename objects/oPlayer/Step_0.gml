@@ -12,7 +12,7 @@ if (hascontrol) {
 	if (canJump-- > 0) && (key_jump = 1 ) {
 		vsp = vspJump;
 		canJump = 0;
-		//audio_play_sound("da inserire audio",1,false);
+		audio_play_sound(snJump,2,false);
 	}
 }
 else {	
@@ -62,10 +62,15 @@ y += vsp;
 if (!place_meeting(x,y+1,oWall)) {
 	// draw his airborne sprite
 	sprite_index = sPlayer_air;
+	//audio_play_sound(snGoatLand,1,false);
 	// don't animate it
 	//image_index = 1;
 }
 else {
+	if (sprite_index == sPlayer_air) {
+	audio_sound_pitch(snGoatLand,random_range(0.7,1.3));
+	audio_play_sound(snGoatLand,0.5,false);
+	}
 	if (hsp == 0) {
 		 sprite_index = sPlayer_id;
 	}

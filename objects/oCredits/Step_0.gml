@@ -2,6 +2,7 @@ var confirm = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("Z"
 
 if (confirm and page = totalPages) {
 	global.gamefinish = true;
+	audio_stop_sound(snScoreAndCredits);
 	SlideTransition(TRANS_MODE.GOTO(Menu));
 }
 

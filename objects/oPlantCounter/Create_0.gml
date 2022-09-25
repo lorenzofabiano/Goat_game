@@ -3,3 +3,4 @@
 //		2 = next level animation (goat flying)
 levelClear = 0;
 clearScreenDuration = 120;
+wipeToClearPause = 30;

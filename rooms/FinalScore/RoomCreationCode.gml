@@ -1,0 +1,1 @@
+audio_play_sound(snScoreAndCredits,1,true);
