@@ -1,4 +1,4 @@
-other.vsp = -9;
+other.moveY = -9;
 
 
 

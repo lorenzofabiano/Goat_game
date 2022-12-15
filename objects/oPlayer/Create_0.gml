@@ -1,9 +1,10 @@
-hsp = 0; //current horizontal velocity
-vsp = 0; //current vertical velocity
-grv = 0.33; //fall acceleration
-walksp = 3.9; // potential horizontal speed 
-vspJump = -6; // potential jump speed
-canJump = 0; //checks if player can jump
+spd = 3.7;
+grav = 0.4;
+moveX = 0;
+moveY = 0;
+onGround = false;
+jumpforce = 7.5;
+precisionStep = 60;
 hascontrol = true; //check if the player can move
 
 
